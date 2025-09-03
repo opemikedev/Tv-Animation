@@ -1,12 +1,14 @@
 import "./App.css";
-import Header from "./components/header";
+import Head from "./components/Head";
+
 import Hero from "./components/Hero";
 
 function App() {
   return (
     <>
       <div>
-        <Header />
+        <Head />
+
         <Hero />
       </div>
     </>
